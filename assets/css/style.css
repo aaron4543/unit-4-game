@@ -1,0 +1,126 @@
+/* Body Styling */
+body {
+    background-image: url(../images/body-background.gif);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    color: deepskyblue;
+    font-family: fantasy;
+}
+
+.instructions {
+    margin: auto 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.instructions h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Flex Container */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 20px;
+    opacity: .9;
+}
+
+/* Flex Items */
+
+.game-title h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.game-img #main-img {
+    height: 400px;
+    border-radius: 20px;
+}
+
+.game-counters {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.wins {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.losses {
+    display: flex;
+    flex-direction: row;
+}
+
+#winCount {
+    margin: 0 15px 0 5px;
+}
+
+#lossCount {
+    margin: 0 15px 0 5px;
+}
+
+.game-values {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+    margin: 5px;
+}
+
+#goal {
+    margin: 0 15px 0 5px;
+}
+
+#sum {
+    margin: 0 15px 0 5px;
+}
+
+.crystal-btns {
+    display: flex;
+    flex-direction: row;
+}
+
+#btn-1 {
+    height: 50px;
+    width: 50px;
+    margin: 0 20px;
+    border-radius: 10px;
+    /* background-image: url(../images/crystal1.jpg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 0px; */
+}
+
+#btn-2 {
+    height: 50px;
+    width: 50px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+#btn-3 {
+    height: 50px;
+    width: 50px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+#btn-4 {
+    height: 50px;
+    width: 50px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
